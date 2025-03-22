@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b68dfa9-0748-462b-8231-89ec8ab07b5b" name="Changes" comment="TAREA">
+    <list default="true" id="7b68dfa9-0748-462b-8231-89ec8ab07b5b" name="Changes" comment="TAREA 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umg/progra2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umg/progra2/arbolcadena/arbolcadena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/arbolcadena/arbolcadena.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "EdgarFive"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;EdgarFive&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/EdgarFive/Clase_15-03-2025.git",
-    "accountId": "b26ef9a6-b77d-4220-af3c-c2db8ea10043"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EdgarFive/Clase_15-03-2025.git&quot;,
+    &quot;accountId&quot;: &quot;b26ef9a6-b77d-4220-af3c-c2db8ea10043&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2uMa0CVLTK9v6eujuhk32tGeMAj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,6 +52,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/GMG/Desktop/PROGRAMACIÓN (Programas)/0. JAVA-AA/Tarea_Arboles",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,7 +98,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742060679838</updated>
-      <workItem from="1742060681036" duration="4882000" />
+      <workItem from="1742060681036" duration="7143000" />
+      <workItem from="1742621784807" duration="58000" />
     </task>
     <task id="LOCAL-00001" summary="TAREA">
       <option name="closed" value="true" />
@@ -105,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742439722626</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="TAREA 2">
+      <option name="closed" value="true" />
+      <created>1742440810095</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742440810095</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,15 +125,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TAREA" />
-    <option name="LAST_COMMIT_MESSAGE" value="TAREA" />
+    <MESSAGE value="TAREA 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="TAREA 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/umg/progra2/Main.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="4" />
+          <line>31</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

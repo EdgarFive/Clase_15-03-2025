@@ -10,7 +10,9 @@ public class arbolcadena {
         this.raiz = null;
     }
 
-    public void insertar(String dato) {
+    public void
+
+    insertar(String dato) {
         if(this.raiz == null){
             this.raiz = new nodocadena(dato);
         } else {

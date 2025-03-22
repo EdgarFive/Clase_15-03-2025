@@ -1,5 +1,7 @@
 package umg.progra2;
 
+import umg.progra2.Datos.Persona;
+import umg.progra2.Datos.arbol_Persona;
 import umg.progra2.arbolbinario.arbol;
 import umg.progra2.arbolcadena.arbolcadena;
 
@@ -8,6 +10,7 @@ import umg.progra2.arbolcadena.arbolcadena;
 public class Main {
     public static void main(String[] args) {
 
+        /*
         arbol aarbol = new arbol();
         aarbol.insertar(6);
         aarbol.insertar(10);
@@ -18,12 +21,54 @@ public class Main {
         aarbol.insertar(15);
        // aarbol.insertar(8);
         //aarbol.insertar(11);
+        */
 
+
+        /*
         arbolcadena ar = new arbolcadena();
         ar.insertar("Farore");
         ar.insertar("Impa");
         ar.insertar("Navi");
         ar.insertar("Farore");
+
+         */
+
+
+        arbol_Persona perso = new arbol_Persona();
+
+        Persona p1 = new Persona();
+        p1.setNumerotelefono(10048273);  // Nodo padre
+        p1.setNombre("Juan");
+        p1.setDireccion("Calle A");
+
+        Persona p2 = new Persona();
+        p2.setNumerotelefono(15037819);  // Irá a la derecha del padre
+        p2.setNombre("María");
+        p2.setDireccion("Calle B");
+
+        Persona p3 = new Persona();
+        p3.setNumerotelefono(50263748);   // Irá a la izquierda del padre
+        p3.setNombre("Pedro");
+        p3.setDireccion("Calle C");
+
+        Persona p4 = new Persona();
+        p4.setNumerotelefono(17512786);  // Irá a la derecha de p2
+        p4.setNombre("Ana");
+        p4.setDireccion("Calle D");
+
+        Persona p5 = new Persona();
+        p5.setNumerotelefono(25094837);   // Irá a la izquierda de p3
+        p5.setNombre("Luis");
+        p5.setDireccion("Calle E");
+
+        // Insertando en el orden deseado
+        perso.insertar(p1);
+        perso.insertar(p2);
+        perso.insertar(p3);
+        perso.insertar(p4);
+        perso.insertar(p5);
+
+
 
 
         System.out.println("fin!");
